@@ -23,7 +23,7 @@ function wrapVerify(slackAuthOptions) {
     };
     const teamName = params.team_name || (params.team && params.team.name);
     if (teamName) team.name = teamName;
-    const scopes = new Set(params.scope.split(','));
+    const scopes = params;
     const extra = {};
     if (params.bot) {
       extra.bot = {
