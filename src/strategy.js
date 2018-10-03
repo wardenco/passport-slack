@@ -48,7 +48,7 @@ function wrapVerify(slackAuthOptions) {
         accessToken,
         scopes,
         team,
-        extra,
+        refreshToken,
         profile,
         verified
       );
@@ -58,7 +58,7 @@ function wrapVerify(slackAuthOptions) {
         accessToken,
         scopes,
         team,
-        extra,
+        refreshToken,
         profile,
         verified
       );
